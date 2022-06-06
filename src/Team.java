@@ -2,7 +2,6 @@ public class Team {
 
     String NameTeam;
     TeamMate[] team;
-
     String result;
 
     public Team(TeamMate[] team, String NameTeam) {

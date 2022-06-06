@@ -7,7 +7,7 @@ public class Main {
         coop[0] = new TeamMate ("Катя", 24, 2); // Имя+возраст+максимальная высота прыжка
         coop[1] = new TeamMate ("Саша", 32, 4);
         coop[2] = new TeamMate ("Марта", 21, 3);
-        coop[3] = new TeamMate ("Вова", 24, 2);
+        coop[3] = new TeamMate ("Вова", 27, 2);
 
         Team team = new Team(coop, "Друзья");
 
