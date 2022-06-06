@@ -1,12 +1,13 @@
 public class TeamMate {
+    private final float height;
     String name;
     int age;
     double speed;
 
-    public TeamMate(String name, int age, float speed) {
+    public TeamMate(String name, int age, int height) {
         this.name = name;
         this.age = age;
-        this.speed = speed;
+        this.height = height;
     }
 
     public void printInfo() {
@@ -16,8 +17,8 @@ public class TeamMate {
         return name;
     }
 
-    public double getSpeed() {
-        return speed;
+    public double getHeight() {
+        return height;
     }
 }
 
