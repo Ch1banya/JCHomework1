@@ -2,7 +2,7 @@ public class TeamMate {
     private final float height;
     String name;
     int age;
-    double speed;
+
 
     public TeamMate(String name, int age, int height) {
         this.name = name;
@@ -11,7 +11,7 @@ public class TeamMate {
     }
 
     public void printInfo() {
-        System.out.println(name + " " + age + " " + speed);
+        System.out.println(name + " " + age + " " + height);
     }
     public String getName() {
         return name;

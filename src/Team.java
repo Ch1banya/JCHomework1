@@ -20,7 +20,7 @@ public class Team {
     }
 
     public void showResults() {
-        System.out.println(result);
+       System.out.println(result);
     }
 
 }
